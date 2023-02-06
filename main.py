@@ -61,7 +61,7 @@ if language == 'ru':
 
 shear_step = input('Enter shear step')
 while not shear_step.isdigit():
-    action = input('Please enter valid integer number')
+    shear_step = input('Please enter valid integer number')
 
 if action == 'encrypt':
     encrypt()
